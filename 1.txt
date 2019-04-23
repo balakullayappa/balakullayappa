@@ -1,0 +1,32 @@
+npp:
+Sigma spectrum infusion System with master drug library
+lvp infusion pump intended to be used for the controlled administration of IV(intravenous)
+fluids at user selectable rates and volumes
+MDL is pc based pharmacy edited and controlled,customized in-house library of IV Drug along with their safety delivery parameters
+Sigma spectrum falls under class II device
+FDA(Food and drug adminstaration) classification falls under death or serious in case of failure
+MDL update are throug IRDA port or WI-FI
+drug capacity up 1600 and 32 care areas
+sigma pump provides two main options for infusion
+1)DERS(dose error reduction system)
+2)Basic mode
+
+sub-system modules
+==
+based on the complexity of the software and for best processing speed the SIGMa systme is divided into the following components
+:SHARP
+:PIC
+:CPLD
+
+when IV tube present b/w LED and phototransistor the infrared light is diffracted and the phototransistor give a high voltage output and vice-versa
+when no set is present.
+
+user select care area from a list of care area provided by the active drug library
+
+LVP does't allow the VTBI(volme to be infused) values less than 0.1
+
+based hard limit and soft limit we writting the automation programs
+
+
+
+
